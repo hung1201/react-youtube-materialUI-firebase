@@ -1,0 +1,39 @@
+.videos {
+    width: 80%;
+    margin-left: 20%;
+    background-color: #f9f9f9;
+    padding-bottom: 0;
+    padding: 40px 20px;
+}
+
+.videos>h2 {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.videos__videoList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width:1020px) {
+    .videos__videoList {
+        justify-content: center;
+    }
+}
+
+@media (max-width:768px) {
+    .videos {
+        width: 100%;
+        margin: 0;
+    }
+    .videos__videoList {
+        justify-content: center;
+    }
+}
+
+@media (max-width:650px) {
+    .videos__videoList {
+        justify-content: center;
+    }
+}

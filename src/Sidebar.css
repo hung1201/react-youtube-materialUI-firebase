@@ -1,0 +1,37 @@
+.sidebar {
+    width: 20%;
+    overflow: auto;
+    height: calc(100% - 70px);
+    position: fixed;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    z-index: 998;
+    background-color: #fff;
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar:hover::-webkit-scrollbar {
+    display: block;
+}
+
+.sidebar__icon {
+    color: #606060;
+    font-size: large !important;
+}
+
+.sidebar>hr {
+    height: 1px;
+    border: none;
+    background-color: lightgray;
+    margin: 10px 0;
+}
+
+@media (max-width:768px) {
+    .sidebar {
+        display: none;
+    }
+}

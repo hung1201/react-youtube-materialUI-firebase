@@ -1,0 +1,50 @@
+.channelRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+.channelRow__avatarContainer {
+    flex: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.channelRow__avatarContainer .channelRow__avatar {
+    width: 130px;
+    height: 130px;
+}
+
+.channelRow__info {
+    flex: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.channelRow__info>p {
+    color: #606060;
+    font-size: small !important;
+}
+
+.channelRow__info>h4 {
+    display: flex;
+    align-items: center;
+}
+
+.channelRow__btnContainer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.channelRow__btnContainer .channelRow__btn {
+    background-color: #cc0000;
+    color: #fff;
+}
+
+.channelRow__btnContainer .channelRow__btn:hover {
+    background-color: #cc0000;
+}
